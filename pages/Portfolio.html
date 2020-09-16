@@ -45,14 +45,72 @@
 
 
     <br>
+
     <!-- The whole content is wrapped in the container for styling and centering on the page -->
-    <section class="container ">
-        <div class="color-header">
-            <!-- Project page title  -->
-            <h1>Click the image to see deployed projects!</h1>
-        </div>
+    <section class="container-fluid  ">
+
+        <!-- Project page title  -->
+        <h1 class="text-light mx-auto">Click the image to see deployed projects!</h1>
+
         <br>
+
         <!-- Jumbotron style card for project 1 -->
+        <section class="jumbotron project-listing row py-3">
+            <!-- left half of project listing  -->
+            <div class="col-md-9">
+                <div class="row">
+                    <h3 class="mb-0">SHAKR App</h3>
+                </div>
+                <hr class="my-2">
+                <div class="row">
+                    <div class="border px-1 mx-1"> HTML </div>
+                    <div class="border px-1 mx-1"> CSS </div>
+                    <div class="border px-1 mx-1"> JavaScript </div>
+                    <div class="border px-1 mx-1"> Bulma.CSS </div>
+                    <div class="border px-1 mx-1"> jQuery </div>
+                </div>
+                <div class="row mt-4 mx-2 ">
+                    <p>
+                        Cocktail recipe generator: Enter your ingredients to see which recipes you can make. JS objects
+                        track viable cocktails. theCocktailDB.com and Google Maps API utilized.
+                    </p>
+                </div>
+                <!-- <p class="lead">Get mixed-drink recipes based on what ingredients you have at home!
+                </p>
+                <hr class="my-4">
+                <div class="row">
+                    <div class="col-md-7"> 
+
+                        Core responsibilities: theCocktailDB API interaction, cocktail-finder logic, dynamic
+                        HTML
+                        rendering, QA, error checking, documentation. -->
+            </div>
+
+            <!-- right half of project listing - screenshot -->
+            <div class="col-md-3 my-auto">
+                <div class="row">
+                    <!-- link to project page, link image -->
+                    <div class="hvr-grow mx-auto ">
+                        <a target="_blank" href="https://abraspin.github.io/UTA-H2-Responsive-Portfolio-AAS/"><img
+                                style="max-height:12rem" class="project-link-pic border img-fluid"
+                                src="../assets/images/Bio-Home-Snip.png" alt="Home-Page-Link">
+
+                        </a>
+                        <div class="row">
+                            <p class="mx-auto text-dark mb-0">Click to see the deployed app</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+        </section>
+
+
+        <!-- Jumbotron style card for project 2 -->
         <section class="jumbotron project-listing container">
             <h1 class="display-5">My Bio Website</h1>
             <p class="lead">A website from scratch containing my information. In fact...It's this very site!</p>
@@ -64,7 +122,7 @@
                             Languages: HTML5, CSS
                         </div>
                     </div>
-                    <!-- This is so the horizontal line doens't go too far up to the pic /link -->
+                    <!-- This is so the horizontal line doesn't go too far up to the pic /link -->
                     <div class="row">
                         <div class="col-md-10">
                             <hr class="my-2">
@@ -87,7 +145,7 @@
             </div>
         </section>
 
-        <!-- Jumbotron style card for project 2 -->
+        <!-- Jumbotron style card for project 3 -->
         <section class="jumbotron project-listing container">
             <h1 class="display-5">Code Refactor</h1>
             <p class="lead">A website with malfunctioning code and inefficient styling was corrected and optimized</p>
@@ -116,7 +174,7 @@
                 <div class="col-md-5">
                     <a target="_blank" href="https://abraspin.github.io/UTA-H1-Code-Refactor-AAS/"><img
                             class="project-link-pic hvr-grow" src="../assets/images/Horiseon-snip.png"
-                            alt=" code-refactor-link" ></a>
+                            alt=" code-refactor-link"></a>
                 </div>
             </div>
         </section>
