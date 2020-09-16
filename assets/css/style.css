@@ -96,6 +96,10 @@ body {
 }
 
 
+.jumbotron {
+  background-color: #00868B;
+  height: 15rem
+}
 
 @media only screen and (max-width: 768px) {
   .project-link-pic {
@@ -112,11 +116,21 @@ body {
 
   .jumbotron {
     margin-left: .5rem;
-    margin-right: .5rem
+    margin-right: .5rem;
+    height: 24rem
+  }
+
+  .project-description {
+    margin: 0 auto
+  }
+
+  .github-link {
+    margin: 0 auto
   }
 }
 
-.jumbotron {
-  background-color: #00868B;
-
-}
+/* @media (min-width: 769px) {
+  .jumbotron {
+    height: 15rem
+  }
+} */

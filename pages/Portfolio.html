@@ -49,16 +49,18 @@
     <!-- The whole content is wrapped in the container for styling and centering on the page -->
     <section class="container-fluid  ">
         <!-- Project page title  -->
-        <h1 class="text-light mx-auto">Click the image to see deployed projects!</h1>
-        <br>
-        <!-- Jumbotron style card for project 1 -->
-        <section class="jumbotron project-listing row py-3">
+        <div class="row">
+            <h1 class="text-light text-center mx-auto">Projects</h1>
+        </div>
+
+        <!-- Jumbotron style card for project - SHAKR -->
+        <section style="box-shadow:-4px 4px 1px 0px rgba(255,255,255,0.5)" class="jumbotron project-listing row py-3">
             <!-- left half of project listing  -->
             <div class="col-md-9">
                 <div class="row">
                     <h3 class="mb-0">SHAKR App</h3>
                 </div>
-                <hr class="my-2">
+                <hr class="my-2 mr-5">
                 <div class="row">
                     <div class="border px-1 m-1"> HTML </div>
                     <div class="border px-1 m-1"> CSS </div>
@@ -66,70 +68,183 @@
                     <div class="border px-1 m-1"> Bulma.CSS </div>
                     <div class="border px-1 m-1"> jQuery </div>
                 </div>
-                <div class="row mt-4 mr-2 ">
+                <hr class="my-2 mr-5">
+                <div class="row mr-2 project-description">
                     <p>
-                        Cocktail recipe generator: Enter your ingredients to see which recipes you can make. JS objects
-                        track viable cocktails. theCocktailDB.com and Google Maps API utilized.
+                        Enter your ingredients to see which recipes you can make! JS tracks viable cocktail objects,
+                        theCocktailDB.com and Google Maps API utilized.
                     </p>
                 </div>
-                <!-- Core responsibilities: theCocktailDB API interaction, cocktail-finder logic, dynamic HTML rendering, QA, error checking, documentation. -->
+                <div class="row ">
+                    <a class="github-link" target=" _blank"
+                        href="https://github.com/abraspin/Project-1-The-Silent-Marvels-/">
+                        <div class="text-info rounded bg-dark  p-2 m-1"> GitHub Repo </div>
+                    </a>
+                </div>
             </div>
             <!-- right half of project listing - screenshot -->
             <div class="col-md-3 my-auto">
                 <div class="row">
                     <!-- link to project page, link image -->
                     <div class="hvr-grow mx-auto ">
-                        <a target="_blank" href="https://abraspin.github.io/UTA-H2-Responsive-Portfolio-AAS/"><img
+                        <a target="_blank" href="https://abraspin.github.io/Project-1-The-Silent-Marvels-/"><img
                                 style="max-height:12rem" class=" project-link-pic border img-fluid"
-                                src="../assets/images/Bio-Home-Snip.png" alt="Home-Page-Link">
+                                src="../assets/images/SHAKR-screenshot.png" alt="SHAKR-app-link">
                             <div class="row deployed-app-link mx-auto ">
                                 <p class="font-weight-bold mx-auto text-dark text-center my-0">Click to see the deployed
                                     app
                                 </p>
                             </div>
                         </a>
-
                     </div>
                 </div>
             </div>
         </section>
 
-
-        <!-- Jumbotron style card for project 2 -->
-        <section class="d-none jumbotron project-listing container">
-            <h1 class="display-5">My Bio Website</h1>
-            <p class="lead">A website from scratch containing my information. In fact...It's this very site!</p>
-            <hr class="my-4">
-            <div class="row">
-                <div class="col-md-7">
-                    <div class="row">
-                        <div class="col-md-12">
-                            Languages: HTML5, CSS
-                        </div>
-                    </div>
-                    <!-- This is so the horizontal line doesn't go too far up to the pic /link -->
-                    <div class="row">
-                        <div class="col-md-10">
-                            <hr class="my-2">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            Applications: CSS.Hover, Bootstrap, Font Awesome
-                        </div>
-                    </div>
+        <!-- Jumbotron style card for project - WEATHER DASHBOARD -->
+        <section style="box-shadow:-4px 4px 1px 0px rgba(255,255,255,0.5)" class="jumbotron project-listing row py-3">
+            <!-- left half of project listing  -->
+            <div class="col-md-9">
+                <div class="row">
+                    <h3 class="mb-0">Weather Dashboard</h3>
+                </div>
+                <hr class="my-2 mr-5">
+                <div class="row">
+                    <div class="border px-1 m-1"> HTML </div>
+                    <div class="border px-1 m-1"> CSS </div>
+                    <div class="border px-1 m-1"> JavaScript </div>
+                    <div class="border px-1 m-1"> Bootstrap </div>
+                    <div class="border px-1 m-1"> jQuery </div>
+                </div>
+                <hr class="my-2 mr-5">
+                <div class="row mr-2 project-description">
+                    <p>
+                        Weather dashboard app. Utilizes OpenWeather API and renders page on demand, stores searches
+                        locally.
+                    </p>
                 </div>
 
-                <!-- link to project page, link image -->
-                <div class="col-md-5">
-                    <a target="_blank" href="https://abraspin.github.io/UTA-H2-Responsive-Portfolio-AAS/"><img
-                            class="project-link-pic hvr-grow img-fluid" src="../assets/images/Bio-Home-Snip.png"
-                            alt="Home-Page-Link"></a>
-
+                <div class="row ">
+                    <a class="github-link" target=" _blank" href="https://github.com/abraspin/Weather-Dashboard/">
+                        <div class="text-info rounded bg-dark  p-2 m-1"> GitHub Repo </div>
+                    </a>
+                </div>
+            </div>
+            <!-- right half of project listing - screenshot -->
+            <div class="col-md-3 my-auto">
+                <div class="row">
+                    <!-- link to project page, link image -->
+                    <div class="hvr-grow mx-auto ">
+                        <a target="_blank" href="https://abraspin.github.io/Weather-Dashboard/"><img
+                                style="max-height:12rem" class=" project-link-pic border img-fluid"
+                                src="../assets/images/weather-dashboard-screenshot.png"
+                                alt="weather-dashboard-app-link">
+                            <div class="row deployed-app-link mx-auto ">
+                                <p class="font-weight-bold mx-auto text-dark text-center my-0">Click to see the deployed
+                                    app
+                                </p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
 
+        <!-- Jumbotron style card for project - THIS WEBSITE -->
+        <section style="box-shadow:-4px 4px 1px 0px rgba(255,255,255,0.5)" class="jumbotron project-listing row py-3">
+            <!-- left half of project listing  -->
+            <div class="col-md-9">
+                <div class="row">
+                    <h3 class="mb-0">My Website</h3>
+                </div>
+                <hr class="my-2 mr-5">
+                <div class="row">
+                    <div class="border px-1 m-1"> HTML </div>
+                    <div class="border px-1 m-1"> CSS </div>
+                    <div class="border px-1 m-1"> Bootstrap </div>
+                </div>
+                <hr class="my-2 mr-5">
+                <div class="row mr-2  project-description">
+                    <p>
+                        A website from scratch containing my information. In fact...It's this very site!
+                    </p>
+                </div>
+                <div class="row ">
+                    <a class="github-link" target=" _blank" href="https://github.com/abraspin/website/">
+                        <div class="text-info rounded bg-dark  p-2 m-1"> GitHub Repo </div>
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- right half of project listing - screenshot -->
+            <div class="col-md-3 my-auto">
+                <div class="row">
+                    <!-- link to project page, link image -->
+                    <div class="hvr-grow mx-auto ">
+                        <a target="_blank" href="https://abraspin.github.io/website/"><img style="max-height:12rem"
+                                class=" project-link-pic border img-fluid" src="../assets/images/Bio-Home-Snip.png"
+                                alt="Home-Page-Link">
+                            <div class="row deployed-app-link mx-auto ">
+                                <p class="font-weight-bold mx-auto text-dark text-center my-0">Click to see the deployed
+                                    app
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Jumbotron style card for project - WORKDAY SCHEDULER -->
+        <section style="box-shadow:-4px 4px 1px 0px rgba(255,255,255,0.5)" class="jumbotron project-listing row py-3">
+            <!-- left half of project listing  -->
+            <div class="col-md-9">
+                <div class="row">
+                    <h3 class="mb-0">Workday Scheduler</h3>
+                </div>
+                <hr class="my-2 mr-5">
+                <div class="row">
+                    <div class="border px-1 m-1"> HTML </div>
+                    <div class="border px-1 m-1"> CSS </div>
+                    <div class="border px-1 m-1"> Bootstrap </div>
+                    <div class="border px-1 m-1"> JavaScript </div>
+                    <div class="border px-1 m-1"> jQuery </div>
+                    <div class="border px-1 m-1"> Moment.JS </div>
+                </div>
+                <hr class="my-2 mr-5">
+                <div class="row mr-2  project-description">
+                    <p>
+                        A super simple daily calendar app. Save your activities to the hour - line items are color coded
+                        by the time of day!
+                    </p>
+                </div>
+                <div class="row ">
+                    <a class="github-link" target=" _blank" href="https://github.com/abraspin/Work-Day-Scheduler/">
+                        <div class="text-info rounded bg-dark  p-2 m-1"> GitHub Repo </div>
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- right half of project listing - screenshot -->
+            <div class="col-md-3 my-auto">
+                <div class="row">
+                    <!-- link to project page, link image -->
+                    <div class="hvr-grow mx-auto ">
+                        <a target="_blank" href="https://abraspin.github.io/Work-Day-Scheduler/"><img
+                                style="max-height:12rem" class=" project-link-pic border img-fluid"
+                                src="../assets/images/workday-scheduler-screenshot.png" alt="Work-Day-Scheduler-app">
+                            <div class="row deployed-app-link mx-auto ">
+                                <p class="font-weight-bold mx-auto text-dark text-center my-0">Click to see the deployed
+                                    app
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </section>
 
