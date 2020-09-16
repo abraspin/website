@@ -96,7 +96,10 @@ body {
 
 .jumbotron {
   background-color: #3c6894;
-  height: 15rem
+  height: 15rem;
+  box-shadow: -4px 4px 1px 0px rgba(255, 255, 255, 0.5);
+  margin-right: 10rem;
+  margin-left: 10rem
 }
 
 
@@ -117,7 +120,7 @@ body {
   .jumbotron {
     margin-left: .5rem;
     margin-right: .5rem;
-    height: 24rem
+    height: 26rem
   }
 
   .project-description {
