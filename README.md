@@ -1,7 +1,5 @@
 # This is my personal website!
 
-
-
 ## Link to Deployed Application
 
 https://abraspin.github.io/website/
