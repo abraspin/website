@@ -15,7 +15,7 @@ https://abraspin.github.io/website/
 ## Example
 
 
-![Screenshot of deployed app](./assets/images)
+![Screenshot of deployed app](./assets/images/Bio-Home-Snip.png)
 
 
 ---
