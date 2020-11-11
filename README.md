@@ -1,9 +1,5 @@
-# This is my personal website!
-## Link to Deployed Application
+# [This is my personal website!](https://abraspin.github.io/website/)
 
-https://abraspin.github.io/website/
-
----
 
 ![Screenshot of deployed app](./assets/images/Bio-Home-Snip.png)
 
