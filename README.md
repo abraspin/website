@@ -1,8 +1,9 @@
 Hello! If you're here you're probably actually looking for this:
-[This is my personal website!](https://abraspin.github.io/)
+[https://abraspin.github.io/](https://abraspin.github.io/)
 
 
-# [https://abraspin.github.io/](https://abraspin.github.io/)
+
+# This is my personal website!
 
 
 ![Screenshot of deployed app](./assets/images/Bio-Home-Snip.png)
