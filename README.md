@@ -1,7 +1,7 @@
-Hello! If you're here you're probably actually looking for my updated portfolio, which can be found here:
+Hello! If you're here you're probably  looking for my updated portfolio, which can be found here:
 [https://abraspin.github.io/](https://abraspin.github.io/)
 
-
+--- 
 
 # This is my personal website!
 
